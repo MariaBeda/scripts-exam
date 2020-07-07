@@ -296,9 +296,9 @@ class Items extends Component {
                         <Input placeholder="Enter the producer" style={{marginTop: '0'}} onChange={this.changeAddProducer} />
                         <p>Weight KG</p>
                         <InputNumber min={0} max={500} defaultValue={0} onChange={this.changeAddWeight} />
-                        <p>Price IT</p>
+                        <p>Price</p>
                         <InputNumber min={0} max={10000} defaultValue={100} onChange={this.changeAddPrice} />
-                        <p>Count $</p>
+                        <p>Count</p>
                         <InputNumber min={0} max={500} defaultValue={20} onChange={this.changeAddCount} />
                 </Modal>
 
@@ -321,9 +321,9 @@ class Items extends Component {
                         <Input placeholder="Enter the producer" defaultValue={this.state.producerEdit} onChange={this.changeEditProducer} />
                         <p>Weight KG</p>
                         <InputNumber min={0} max={500} defaultValue={this.state.weightEdit} onChange={this.changeEditWeight} />
-                        <p>Price IT</p>
+                        <p>Price </p>
                         <InputNumber min={0} max={10000} defaultValue={this.state.priceEdit} onChange={this.changeEditPrice} />
-                        <p>Count $</p>
+                        <p>Count </p>
                         <InputNumber min={0} max={500} defaultValue={this.state.countEdit} onChange={this.changeEditCount} />
 
                         <Button type='danger' style={{marginRight: '1rem'}} onClick={() => this.deleteHandler(this.state.editKey)}><i className='fa fa-trash'></i></Button>
