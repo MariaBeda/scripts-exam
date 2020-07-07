@@ -7,6 +7,7 @@ class Layout extends Component {
         return (
             <div className="Layout">
                 <div className="Layout__nav">
+                    <h>Beda1030</h>
                     <NavLink to='/shops' exact>Home</NavLink>
                     <NavLink to='/'>Info</NavLink>
                 </div>
